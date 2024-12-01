@@ -11,7 +11,10 @@ func _ready() -> void:
 	var distance = get_total_distance(left_column, right_column)
 	var sim_score = get_similarity_score(left_column, right_column)
 	
+	# Challenge One Output
 	print("Total Distance: %s" % distance)
+	
+	# Challenge Two Output
 	print("Similarity Score: %s" % sim_score)
 
 
