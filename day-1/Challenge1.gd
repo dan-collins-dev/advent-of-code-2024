@@ -45,8 +45,8 @@ func get_total_distance(left_side: Array, right_side: Array) -> int:
 
 func get_similarity_score(left_side: Array, right_side: Array) -> int:
 	var score := 0
-	for item in left_column:
-		if right_column.has(item):
-			score += item * right_column.count(item)
+	for item in left_side:
+		if right_side.has(item):
+			score += item * right_side.count(item)
 	
 	return score
